@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  flex-direction: column;  /* stack items top to bottom */
+  text-align: center;      /* center the text lines too */
+}
+
+.h1 {
+   font-family: Arial, sans-serif;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+}
+
+img {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   display: block;
+   margin: 0 auto;
+}
+
+
+
+.box1 {
+   padding: 20px;
+   margin: 20px;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.box2 {
+   background-color:#1d0a42;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   font-size: 20px;
+   font-family: Arial, sans-serif;
+}
+
+.box3 {
+   text-align: center;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 10px;
+}
+
+.footer {
+   padding: 20px;
+   text-align: center;
+}
